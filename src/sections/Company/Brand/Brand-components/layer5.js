@@ -48,6 +48,28 @@ const Layer5Brand = () => {
           </Col>
         </Row>
         <Row>
+          <Col xs={12} sm={6}>
+            <h2 className="layerH3">
+              Brand Guide
+            </h2>
+          </Col>
+          <Col xs={12} sm={6} className="download-button">
+            <a href="/brand/layer5-brand-guide.pdf">
+              <Button primary title="Download Brand Guide" external={false}>
+                <FiDownloadCloud size={21} className="icon-left" />
+              </Button>
+            </a>
+          </Col>
+          <Col>
+            <p>
+              Our brand guide is a set of guidelines and rules that ensure consistency and coherence across all of our communications channels. We take pride in our brand and want to ensure that it is always presented in a professional and recognizable manner.
+            </p>
+            <p>
+              We encourage anyone who represents our brand, whether it be employees, customers, or collaborators, to follow these guidelines to ensure that our brand is always presented consistently.
+            </p>
+          </Col>
+        </Row>
+        <Row>
           <Col xs={12}>
             <h2 className="layerH3 in">
               Logos
